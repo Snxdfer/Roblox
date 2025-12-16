@@ -1,7 +1,7 @@
 -- made by 00Fazee / JuanchoLucas / #elrandom1311
 -- rbxassetid Icons: https://raw.githubusercontent.com/S1mplyn3ss/Roblox/refs/heads/main/NotificationScript/LucideIcons.lua
 
-local Notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/S1mplyn3ss/Roblox/refs/heads/main/NotificationScript/NotifSrc.lua"))()
+local Notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/S1mplyn3ss/Roblox/refs/heads/main/Notification/NotifSrc.lua"))()
 
 Notify:MakeNotification({
     Name = "Error",
