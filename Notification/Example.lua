@@ -5,7 +5,7 @@ local Notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/S1mply
 
 Notify:MakeNotification({
     Name = "Error",
-    Content = "Error fetching script.",
+    Content = "Error Content.",
     Time = 10,
     Image = "rbxassetid://10709753149",
     SoundId = "rbxassetid://94922572272481",
@@ -13,10 +13,19 @@ Notify:MakeNotification({
 })
 
 Notify:MakeNotification({
-    Name = "Success",
-    Content = "Script loaded successfully.",
+    Name = "Information",
+    Content = "Information Content.",
     Time = 5,
-    Image = "rbxassetid://10747374131",
+    Image = "rbxassetid://10723415903",
+    SoundId = "rbxassetid://17582299860",
+    Volume = 1
+})
+
+Notify:MakeNotification({
+    Name = "Success",
+    Content = "Success Content",
+    Time = 5,
+    Image = "rbxassetid://10709790298",
     SoundId = "rbxassetid://137955043051820",
     Volume = 1
 })
